@@ -1,0 +1,11 @@
+@import url(font.css);
+body {
+    font-family: AlataRegular !important;
+    margin: 0;
+}
+.JosefinSansMedium{
+    font-family: JosefinSansMedium!important ;
+}
+.JosefinSansLight{
+    font-family: JosefinSansLight!important ;
+}

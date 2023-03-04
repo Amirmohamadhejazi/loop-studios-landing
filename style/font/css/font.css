@@ -1,0 +1,15 @@
+@font-face {
+    font-family: JosefinSansMedium ;
+    font-style: normal;
+     src: url('../FontStyle/Alata-Regular.ttf');
+}
+@font-face {
+    font-family: AlataRegular;
+    font-style: normal;
+     src: url('../FontStyle/JosefinSans-Medium.ttf');
+}
+@font-face {
+    font-family: JosefinSansLight;
+    font-style: normal;
+     src: url('../FontStyle/JosefinSans-Light.ttf');
+}
