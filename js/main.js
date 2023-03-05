@@ -98,7 +98,6 @@ $("#Boximages").html(`
                 <source media="(max-width:991.98px)" srcset=${item.mobileImg}>
                 <img src=${item.desktopImg} alt=${item.text.textOrg}  >
             </picture>
-
             <div class="item_images_text" id="image${item.id}">
                 <span>${item.text.text1}</span>
                 <span>${item.text.text2}</span>  
@@ -108,12 +107,9 @@ $("#Boximages").html(`
 `)
 
 $(document).on("click","#navbarSideCollapse",function(e) {
-    console.log(e)
-
     var cssBody = $( "body" ).css( "overflow" );
     if(cssBody === "hidden"){
         console.log(cssBody)
-        
         $("body").css({"overflow":"auto"});
     }else{
         $("body").css({"overflow":"hidden"});
@@ -122,7 +118,14 @@ $(document).on("click","#navbarSideCollapse",function(e) {
 
 ItemsImg.map((item)=>{
     $(`#image${item.id}`).hover(function(){
-     $(`.imgopacity${item.id}`).toggleClass( "opacity04" )
-    console.log(item.id)
+        $(`.imgopacity${item.id}`).toggleClass( "opacity04" )
+    
+    })
+})
+
+ItemsImg.map((item)=>{
+    $(`.imgopacity${item.id}`).hover(function(){
+        $(`.imgopacity${item.id}`).toggleClass( "opacity04" )
+    
     })
 })

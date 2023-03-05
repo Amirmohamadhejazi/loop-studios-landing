@@ -56,6 +56,12 @@ p{
     flex-direction: row;
 }
 
+.display_n_mobile{
+    display: flex;
+}
+.display_b_mobile{
+    display: none !important;
+}
 /********************* Fonts Name .InterLight .InterBold .InterRegular*/
 .fontSize40{
     font-size: 40px;
@@ -213,19 +219,22 @@ picture img {
     left: 10%;
     display: flex;
     flex-direction: column;
+    
 }
   
-.img_items{
+/* .img_items{
     opacity: 1;
     transition: 0.3s;
-}
+} */
 
-.img_items:hover{
+/* .img_items:hover{
     opacity: 0.4;
     transition: 0.3s;
-}
+} */
 .opacity04 {
     opacity: 0.4 !important;
+    
+    transition: 0.3s;
 }
 /* ********************** menue under line */
 
@@ -272,7 +281,7 @@ picture img {
     align-items: center;
    }
 
-   .flex_row_column_footer{
+   .flex_row_column{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -362,7 +371,7 @@ picture img {
     padding-bottom: 30px;
    }
 
-   .flex_row_column_footer{
+   .flex_row_column{
     display: flex;
     flex-direction: column;
    }
@@ -370,5 +379,16 @@ picture img {
    .nav_footer{
     width: 100%;
    }
+   .display_n_mobile{
+    display: none ;
+   }
+
+   .display_b_mobile{
+    display: flex  !important;
+    }
+    .text-center-mobile-100{
+        width: 100%;
+        text-align: center;
+    }
 
     }
