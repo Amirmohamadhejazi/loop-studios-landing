@@ -275,7 +275,7 @@ picture img {
    .footer{
     padding-top: 20px ;
     padding-bottom: 20px;
-    margin-top: 11rem;
+    margin-top: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -369,6 +369,7 @@ picture img {
    .footer{
     padding-top: 30px ;
     padding-bottom: 30px;
+    margin-top: 6rem;
    }
 
    .flex_row_column{
